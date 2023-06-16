@@ -50,7 +50,7 @@
            rpc.protocol.name=kyro
            rpc.protocol.host=127.0.0.1
            rpc.protocol.port=7011
-           server.port=8000
+           server.port=8080
          ```
     2. 服务消费者 application 文件
 
@@ -58,7 +58,7 @@
            rpc.registry.registry=zk
            rpc.registry.address=127.0.0.1
            rpc.registry.port=2181
-           server.port=8000
+           server.port=8090
         ```
 4. 服务提供方使用@RpcService标注接口实现ervice标注接口实现:version代表当前服务版本.
     ```java
